@@ -1,0 +1,62 @@
+/* ===== General Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+    background: #003366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Page Container ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ===== Profile Image ===== */
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background: #f4f4f4;
+    margin-top: 30px;
+}
